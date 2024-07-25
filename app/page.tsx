@@ -10,7 +10,7 @@ import EmptyLink from "./components/EmptyLink";
 
 export default function Home() {
   return (
-    <main className="">
+    <main>
       <LinkNav />
     </main>
   );

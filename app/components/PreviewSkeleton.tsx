@@ -5,7 +5,7 @@ type Props = {}
 
 function PreviewSkeleton({}: Props) {
   return (
-    <div className='flex justify-center items-center w-[560px] bg-white mx-5 p-5'>
+    <div className='flex justify-center items-center w-[560px] bg-white mx-5 p-5 animate-pulse'>
           <Image
           src="/preview-section.svg"
           width={307}

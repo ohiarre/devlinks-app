@@ -32,9 +32,17 @@ function Preview({}: Props) {
                   <h1 className='text-[32px] font-bold text-[#333333] leading-[48px]'>Ben Wright</h1>
                   <p className='text-[16px] font-bold text-[#737373]'>ben@example.com</p>
         </div>          
-        <div className='flex flex-col justify-center items-center py-5'>
-        <Button className='text-white w-[263px] h-12 px-6 py-2 rounded-lg border-[1px] bg-[#633CFF] text-base font-semibold leading-6'>
-            Save
+        <div className='flex flex-col justify-between items-center py-5 mb-3 space-y-3'>
+        <Button className='text-white w-[263px] h-12 px-6 py-2 rounded-lg border-[1px] bg-[#333333] text-base font-semibold leading-6'>
+            GitHub
+        </Button>
+
+        <Button className='text-white w-[263px] h-12 px-6 py-2 rounded-lg border-[1px] bg-[#EE3939] text-base font-semibold leading-6'>
+            YouTube
+        </Button>
+
+        <Button className='text-white w-[263px] h-12 px-6 py-2 rounded-lg border-[1px] bg-[#2D68FF] text-base font-semibold leading-6'>
+            LinkedIn
         </Button>
         </div>
         </div>
