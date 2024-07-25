@@ -8,8 +8,8 @@ type Props = {}
 function Preview({}: Props) {
   return (
     <div className='space-y-5 md:relative'>
-        <div className='md:bg-[#633CFF] md:h-[300px] rounded-b-3xl'>
-        <nav className='flex justify-between items-center mx-auto md:w-[800px] lg:w-[1000px] p-3 md:bg-white rounded-2xl z-30'>
+        <div className='md:bg-[#633CFF] md:h-[300px] rounded-b-3xl pt-3'>
+        <nav className='flex justify-between items-center mx-auto md:w-[800px] lg:w-[1000px] p-3 md:bg-white rounded-2xl z-30 '>
             <Link href='/link'>
             <Button className=' w-[160px] h-[46px] px-6 py-2 rounded-lg border-[1px] text-[#633CFF]  bg-white border-[#633CFF] text-base font-semibold leading-6'>
             Back to Editor
